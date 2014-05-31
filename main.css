@@ -84,6 +84,7 @@ body {
 	font-family: sans-serif;
 	font-weight: 100;
 	font-size: 30px;
+	text-align: center;
 }
 
 #best-player h2 {
@@ -92,13 +93,16 @@ body {
 	font-size: 40px;
 	margin-bottom: 0px;
 	margin-top: 20px;
+	text-align: left;
 }
 
 #best-player img {
 	display: inline-block;
-	width: 400px;
-	height: 300px;
-	padding: 0 60px 0 20px;
+	padding: 20px;
+	height: auto; 
+	width: auto; 
+	max-width: 350px; 
+	max-height: 350px;
 }
 
 #truth {
