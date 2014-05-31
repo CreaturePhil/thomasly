@@ -15,14 +15,14 @@ body {
 
 #headline h1 {
 	font-weight: 400;
-	font-size: 180px;
+	font-size: 160px;
 	line-height: 1em;
 	margin-bottom: 0;
 }
 
 #headline h2 {
 	font-weight: 200;
-	font-size: 90px;
+	font-size: 80px;
 	margin-top: 5px;
 }
 
@@ -146,4 +146,92 @@ body {
 	-o-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1200px) {
+
+	.container {
+		margin: auto;
+		max-width: 800px;
+	}
+
+	#headline h1 {
+		font-size: 50px;
+	}
+
+	#headline h2 {
+		font-size: 25px;
+	}
+
+	#about {
+		font-size: 15px;
+	}
+
+	#about h2 {
+		font-size: 30px;
+	}
+
+	#about p {
+		width: 40%;
+	}
+
+	#best-player {
+		font-size: 15px;
+	}
+
+	#best-player h2{
+		font-size: 30px;
+	}
+
+	#best-player img {
+		max-width: 150px; 
+		max-height: 150px;
+	}
+
+	#truth {
+		font-size: 15px;
+	}
+
+	#truth h2{
+		font-size: 30px;
+	}
+
+	#footer {
+		font-size: 15px;
+	}
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+	.container {
+		margin: auto;
+		max-width: 400px;
+	}
+
+	#headline h1 {
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 1em;
+		margin-bottom: 0;
+	}
+
+	#headline h2 {
+		font-weight: 200;
+		font-size: 15px;
+		margin-top: 5px;
+	}
+
+	#about p {
+		width: 100%;
+	}
+
+	#about img {
+		height: auto;
+		width: auto;
+		max-width: 250px;
+		max-height: 250px;
+	}
+
 }
